@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.nav-bar {
+    margin: 20px 0;
+    border-bottom: 2px solid #00e9ba;
+    padding: 10px 20px;
+}
+ul.navigation {
+    float: right;
+}
+.navigation li {
+    display: inline-block;
+    padding-right: 30px;
+}
+li a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+    list-style: none;
+    text-decoration: none;    
+}
+.navigation li:nth-child(1) a{
+    color: #00e9ba;
+    font-size: 18px;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.row {
+   font-size: 0;
+   margin: 0 -10px;     
+}
+.col {    
+    width: 25%;
+    padding: 20px 10px;
+    box-sizing: border-box;     
+}
+.col-line {
+    display: inline-block;
+}
+.product {
+    padding: 30px 0 55px  0; 
+    text-align: center;
+    height: 200px;              
+}
+h3 {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    padding-bottom: 20px      
+}
+.price {
+    font-size: 18px;
+}
+.card {
+    border: 1px solid #e1e1e1;
+    padding: 0 20px 50px 20px;
+}
+.card:hover {
+    border: 1px solid #00e9ba;
+    box-shadow: 1px 1px 12px #9e9d9d;
+    transition-duration: 0.5s;
+}
+/* Float method */
+.col-float {
+    float: left;
+    padding: 20px 10px;
+    width: 25%;
+}
+
+
+
+
